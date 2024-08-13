@@ -1,6 +1,6 @@
 import React from 'react';
 // import './Home.css';
-import img from '../Images/myphoto.png'
+import img from '../Images/developerimage.png'
 import {
     AiFillGithub,
     AiOutlineTwitter,
@@ -14,9 +14,10 @@ const Home = () => (
             <h1>Hi, It's <span>Ponraj</span></h1>
             <h3 className="text-animation">I'm a <span></span></h3>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ullam laborum hic praesentium eos,
-                sapiente a enim voluptatum, commodi sequi similique. Voluptates in nobis distinctio laborum veniam veritatis
-                fugiat quae.
+                Completed an intensive Full Stack Developer course covering front-end and back-end technologies.
+                Gained hands-on experience in designing and implementing end-to-end web applications.
+                Developed real-world projects like an AI Quiz Generator and a Pizza Delivery App,
+                utilizing technologies such as VueJS, React.js, Node.js, and MongoDB.
             </p>
             <div className="social-icons">
                 <a href="https://www.linkedin.com/in/ponraj-muniyaraj-a283a4243/"><FaLinkedinIn /></a>
