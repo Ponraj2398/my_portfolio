@@ -17,6 +17,7 @@ const Header = () => {
         <a href="#home" className="active">Home</a>
         <a href="#education">Education</a>
         <a href="#services">Experience</a>
+        {/* <a href="#tech">Tech</a> */}
         <a href="#contact">Contacts</a>
       </nav>
     </header>

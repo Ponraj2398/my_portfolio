@@ -1,8 +1,7 @@
 import React from 'react';
 // import './Services.css';
-
 const Services = () => (
-  <section className="education" id="education">
+  <section className="services" id="services">
     <h2 className="heading">Experience</h2>
     {/* <div className="service-container">
       <div className="service-box">
@@ -105,6 +104,7 @@ const Services = () => (
       </div>
     </div>
   </section>
+  
 );
 
 export default Services;
