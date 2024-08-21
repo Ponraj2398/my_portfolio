@@ -6,7 +6,7 @@ import Education from './components/Education';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Tech from './components/TechStack'
+import TechStack from './components/TechStack';
 function App() {
   useEffect(() => {
     const sections = document.querySelectorAll('section');
@@ -35,7 +35,7 @@ function App() {
       <Home />
       <Education />
       <Services />
-      <Tech />
+      <TechStack />
       <Contact />
       <Footer />
     </div>

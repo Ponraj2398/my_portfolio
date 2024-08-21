@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   DiHtml5, DiCss3, DiBootstrap, DiJavascript1, DiNodejs,
   DiReact, DiMongodb, DiJava
@@ -6,7 +7,7 @@ import { CgCPlusPlus } from "react-icons/cg";
 import { SiFirebase } from "react-icons/si";
 // import "./TechStack.css"; // Import the custom CSS
 
-const TechStack = () => {
+const TechStack = () => (
         <section className="tech" id="tech">
             <h2 className="heading">Technologies Covered</h2>
             <div className="tech-stack-row">
@@ -42,6 +43,6 @@ const TechStack = () => {
                 </div>
             </div>
         </section>
-};
+);
 
 export default TechStack;
