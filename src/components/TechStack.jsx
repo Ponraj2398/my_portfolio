@@ -1,10 +1,10 @@
 import React from 'react';
 import {
   DiHtml5, DiCss3, DiBootstrap, DiJavascript1, DiNodejs,
-  DiReact, DiMongodb, DiJava
+  DiReact, DiMongodb
 } from "react-icons/di";
 import { CgCPlusPlus } from "react-icons/cg";
-import { SiFirebase } from "react-icons/si";
+import { SiFirebase,SiNetlify } from "react-icons/si";
 // import "./TechStack.css"; // Import the custom CSS
 
 const TechStack = () => (
@@ -39,7 +39,7 @@ const TechStack = () => (
                     <SiFirebase className='tc'/>
                 </div>
                 <div className="tech-icons">
-                    <DiJava className='tc'/>
+                    <SiNetlify className='tc'/>
                 </div>
             </div>
         </section>

@@ -15,9 +15,9 @@ const Home = () => {
         button.classList.remove('animate');
         void button.offsetWidth; // Trigger reflow to restart the animation
         button.classList.add('animate');
-        
+
         setTimeout(() => {
-          button.classList.remove('animate');
+            button.classList.remove('animate');
         }, 700);
     };
 
@@ -36,7 +36,7 @@ const Home = () => {
                     <a href="https://www.linkedin.com/in/ponraj-muniyaraj-a283a4243/"><FaLinkedinIn /></a>
                     <a href="https://github.com/Ponraj2398"><AiFillGithub /></a>
                     <a href="https://www.instagram.com/ponraj_rahul2398/"><AiFillInstagram /></a>
-                    <a href="#"><AiOutlineTwitter /></a>
+                    <a href="#home"><AiOutlineTwitter /></a>
                 </div>
                 <div className="btn-group">
                     <button className="bubbly-button" onClick={animateButton}>Hire</button>
