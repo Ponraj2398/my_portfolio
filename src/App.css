@@ -830,7 +830,8 @@ span {
 
 /* Flexbox layout for the icons */
 .tech-stack-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4,300px);
   flex-wrap: wrap;
   justify-content: center;
   /* padding-bottom: 50px; */
@@ -844,7 +845,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
+  font-size: 2rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   background-color:var(--bg-color);
   color: #fff;
@@ -852,7 +853,9 @@ span {
   border-radius: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
-
+.tech-icons .tc{
+  font-size: 6rem;
+}
 /* Hover effect with box shadow and slight scale */
 .tech-icons:hover {
   transform: scale(1.2);

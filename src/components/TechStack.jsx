@@ -12,34 +12,34 @@ const TechStack = () => (
             <h2 className="heading">Technologies Covered</h2>
             <div className="tech-stack-row">
                 <div className="tech-icons">
-                    <DiHtml5 />
+                    <DiHtml5 className='tc'/>
                 </div>
                 <div className="tech-icons">
-                    <DiCss3 />
+                    <DiCss3 className='tc'/>
                 </div>
                 <div className="tech-icons">
-                    <DiBootstrap />
+                    <DiBootstrap className='tc'/>
                 </div>
                 <div className="tech-icons">
-                    <DiJavascript1 />
+                    <DiJavascript1 className='tc'/>
                 </div>
                 <div className="tech-icons">
-                    <CgCPlusPlus />
+                    <CgCPlusPlus className='tc'/>
                 </div>
                 <div className="tech-icons">
-                    <DiNodejs />
+                    <DiNodejs className='tc'/>
                 </div>
                 <div className="tech-icons">
-                    <DiReact />
+                    <DiReact className='tc'/>
                 </div>
                 <div className="tech-icons">
-                    <DiMongodb />
+                    <DiMongodb className='tc'/>
                 </div>
                 <div className="tech-icons">
-                    <SiFirebase />
+                    <SiFirebase className='tc'/>
                 </div>
                 <div className="tech-icons">
-                    <DiJava />
+                    <DiJava className='tc'/>
                 </div>
             </div>
         </section>
