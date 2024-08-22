@@ -995,11 +995,14 @@ span {
 }
 
 /* Hide the text elements on the front side */
-.front .inner p,
-.front .inner span {
-  display: none;
-  /* Hide the text elements */
+.front .inner p {
+  font-size: 2rem; margin-bottom: -13rem; position: absolute;
 }
+/* .front .inner p:after {
+  content: ''; width: 4rem; height: 2px; position: absolute;
+  background: #C6D4DF; display: block; left: 0; right: 0;
+  margin: 0 auto; 
+} */
 
 /* Ensure the icon is centered */
 .icon-container {
