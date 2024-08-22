@@ -4,7 +4,7 @@ import {
     DiReact, DiMongodb
 } from "react-icons/di";
 import { CgCPlusPlus } from "react-icons/cg";
-import { SiFirebase, SiNetlify } from "react-icons/si";
+import { SiFirebase, SiNetlify, SiVuedotjs } from "react-icons/si";
 // import "./TechStack.css"; // Import the custom CSS
 
 const TechStack = () => (
@@ -112,7 +112,38 @@ const TechStack = () => (
                         </div>
                     </div>
                 </div>
-
+                {/* Vuejs Icon */}
+                <div className="col" onTouchStart={(e) => e.currentTarget.classList.toggle("hover")}>
+                    <div className="container">
+                        <div className="front icon-container">
+                            <div className="inner">
+                                <SiVuedotjs size={100} color="#42b883" />
+                                <p>Vue.js</p>
+                            </div>
+                        </div>
+                        <div className="back">
+                            <div className="inner">
+                                <p>Vue.js is a progressive JavaScript framework for building user interfaces.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* React Icon */}
+                <div className="col" onTouchStart={(e) => e.currentTarget.classList.toggle("hover")}>
+                    <div className="container">
+                        <div className="front icon-container">
+                            <div className="inner">
+                                <DiReact size={100} color="#61DAFB" />
+                                <p>React</p>
+                            </div>
+                        </div>
+                        <div className="back">
+                            <div className="inner">
+                                <p>React is a JavaScript library for building user interfaces.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 {/* Node.js Icon */}
                 <div className="col" onTouchStart={(e) => e.currentTarget.classList.toggle("hover")}>
                     <div className="container">
@@ -130,22 +161,7 @@ const TechStack = () => (
                     </div>
                 </div>
 
-                {/* React Icon */}
-                <div className="col" onTouchStart={(e) => e.currentTarget.classList.toggle("hover")}>
-                    <div className="container">
-                        <div className="front icon-container">
-                            <div className="inner">
-                                <DiReact size={100} color="#61DAFB" />
-                                <p>React</p>
-                            </div>
-                        </div>
-                        <div className="back">
-                            <div className="inner">
-                                <p>React is a JavaScript library for building user interfaces.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
 
                 {/* MongoDB Icon */}
                 <div className="col" onTouchStart={(e) => e.currentTarget.classList.toggle("hover")}>
