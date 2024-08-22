@@ -1089,3 +1089,24 @@ span {
     margin: 0 0 2rem 0;
   }
 }
+/* Default (Desktop) */
+.icon-container .inner svg {
+  width: 100px;
+  height: 100px;
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .icon-container .inner svg {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .icon-container .inner svg {
+    width: 60px;
+    height: 60px;
+  }
+}
